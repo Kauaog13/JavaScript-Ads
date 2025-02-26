@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 5</title>
+</head>
+
+<body>
+
+    <h1>Javascript</h1>
+
+    <p id="nome"></p>
+
+    <script>
+        // Solicita um nome ao usuário
+        // Armazena o nome digitado pelo usuário na variável 'nome'
+        let nome = window.prompt("Digite um nome:");
+
+        // Exibe uma mensagem de boas-vindas com o nome do usuário
+        // Seleciona o elemento HTML com o id 'nome' e altera seu conteúdo
+        document.getElementById("nome").innerHTML = "Olá, Seja muito Bem-Vindo(a) " + nome + "!";
+    </script>
+
+</body>
+
+</html>
