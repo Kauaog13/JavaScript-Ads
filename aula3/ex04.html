@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 04</title>
+</head>
+
+<body>
+
+    <h1>Situação do Aluno</h1>
+    <form>
+        <p>Nome do aluno:
+            <input type="text" id="inNome" required>
+        </p>
+        <p>1° Nota:
+            <input type="number" step="0.1" min="0" max="10" id="inNota1" required>
+        </p>
+        <p>2° Nota:
+            <input type="number" step="0.1" min="0" max="10" id="inNota2" required>
+        </p>
+        <input type="submit" value="Exibir Média e Situação">
+    </form>
+
+    <h3></h3>
+    <h4></h4>
+
+    <script src="/js/aula3/ex04.js"></script>
+
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            background-image: linear-gradient(to bottom, #414c50, #ece9e9);
+        }
+
+        h1 {
+            font-style: italic;
+            font-size: 36px;
+            text-align: center;
+            margin-bottom: 20px;
+            padding-left: 60px;
+            color: #333;
+            text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            border: 1px solid #ddd;
+            padding: 20px;
+            padding-right: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            width: 50%;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #666;
+        }
+
+        input[type="text"],
+        input[type="number"] {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        input[type="submit"] {
+            padding: 10px;
+            margin-left: 10px;
+            border: none;
+            border-style: initial black;
+            border-radius: 10px;
+            background-color: #4CAF50;
+            color: #fff;
+            width: 100%;
+            cursor: pointer;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        input[type="submit"]:hover {
+            background-color: #3e8e41;
+        }
+
+        h3 {
+            font-size: 24px;
+            color: #333;
+            text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h4 {
+            font-size: 18px;
+            color: #666;
+        }
+    </style>
+</body>
+
+</html>
